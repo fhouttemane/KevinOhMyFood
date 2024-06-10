@@ -1,0 +1,122 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 22px 25px;
+    gap: 16px;
+    background: #353535;
+    color: white;
+    @media screen and (min-width: 1025px) {
+    
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 7.125rem;
+        gap: 1rem;
+    
+    }
+}
+
+
+.footer-home__cta {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1025px) {
+    .footer-home__cta {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        gap: 4rem;
+    }
+}
+
+.footer-home__cta__logo {
+    display: flex;
+}
+
+@media screen and (min-width: 1025px) {
+    .footer-home__cta__logo {
+        align-items: flex-end;
+    }
+}
+
+.footer-home__cta__logo img {
+    max-width: 8.59888rem;
+    max-height: 1.6875rem;
+    flex-shrink: 0;
+    filter: invert(50);
+    padding: 3px 30px 5px 0px;
+}
+
+@media screen and (min-width: 1025px) {
+    .footer-home__cta__logo img {
+        padding-top: 0px;
+    }
+}
+
+.footer-home__cta__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-home__cta__nav__lists {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    gap: 0.44rem;
+}
+
+@media screen and (min-width: 1025px) {
+    .footer-home__cta__nav__lists {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0;
+        gap: 2.44rem;
+    }
+}
+
+footer li,
+.footer-home__cta__nav__lists a {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1025px) {
+
+    .footer-home__cta__nav__lists__list,
+    .footer-home__cta__nav__lists a {
+        gap: 0.5rem;
+    }
+}
+
+.footer-home__cta__nav__lists__list--white i,
+.footer-home__cta__nav__lists__list span,
+.footer-home__cta__nav__lists__list svg,
+.footer-home__cta__nav__lists__list a,
+.footer-home__cta__nav__lists a--white i,
+.footer-home__cta__nav__lists a span,
+.footer-home__cta__nav__lists a svg,
+.footer-home__cta__nav__lists a a {
+    color: #fff;
+}
+
+.footer-home__cta__nav__lists i {
+    display: flex;
+    align-items: center;
+    max-width: 0.6875rem;
+    height: auto;
+    transform: scale(0.75);
+}
+
+.footer-home__cta__nav__lists span {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
